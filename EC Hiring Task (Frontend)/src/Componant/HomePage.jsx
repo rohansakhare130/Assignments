@@ -44,7 +44,7 @@ function HomePage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
           <div className="inline-flex items-center space-x-2">
             <img
-              className="mx-auto h-10 w-auto pr-16 mt-4 -mb-4"
+              className="mx-auto h-10 w-auto pr-16 mt-4 -mb-4  sm:pr-10 sm:mt-2 max-[430px]:pr-3 max-[468px]:-mt-1 max-[468px]:-ml-6  max-[368px]:pr-0"
               src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
               alt="Flipkart Company"
             />
@@ -80,7 +80,7 @@ function HomePage() {
 
           <div className="flex grow justify-end">
             <input
-              className="flex h-10 w-[250px] rounded-md bg-gray-100 px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+              className="flex h-10 w-[250px] max-[468px]:w-[200px] rounded-md bg-gray-100 px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="Search"
               value={searchProduct}

@@ -4,19 +4,19 @@ import "../App.css"
 function Ragisterpage() {
   return (
     <section class="flex flex-col justify-center items-center px-6 py-12 lg:px-8">
-      <div class="box flex min-h-96  bg-slate-100 flex-col justify-center p-8 lg:px-8 border-solid border-neutral-400 border-2 ">
+      <div class="box flex min-h-96  bg-slate-100 flex-col justify-center p-8 lg:px-8 border-solid border-neutral-400 border-2 max-[468px]:w-80 ">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm ">
           <img
-            class="mx-auto h-10 w-auto pr-16 mt-2 -mb-6"
+            class="mx-auto h-10 w-auto pr-16 mt-2 -mb-6 max-[468px]:h-8"
             src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
             alt="Flipkart Company"
           />
-          <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+          <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 max-[468px]:text-xl max-[468px]:mt-6">
             Registration
           </h2>
         </div>
 
-        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm max-[468px]:mt-4">
           <form class="space-y-3" action="#" method="POST">
             <div>
               <label

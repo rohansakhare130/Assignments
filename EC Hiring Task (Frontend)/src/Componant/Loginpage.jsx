@@ -18,7 +18,7 @@ function LoginPage() {
 
   return (
     <section className="flex flex-col justify-center items-center px-6 py-12 lg:px-8">
-      <div className="flex min-h-96 w-96 bg-slate-100 flex-col justify-center p-8 lg:px-8 border-solid border-neutral-400 border-2">
+      <div className="flex min-h-96 w-96 bg-slate-100 flex-col justify-center p-8 lg:px-8 border-solid border-neutral-400 border-2 max-[388px]:w-72">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             className="mx-auto h-10 w-auto pr-16 mt-4 -mb-4"
